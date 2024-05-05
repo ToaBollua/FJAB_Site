@@ -1,3 +1,4 @@
+/* NO TOCAR! ESTO ES LA VELA QUE SE VE AL FINAL DE LA WEBPAGE */
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700,700i');
 
 
@@ -195,7 +196,7 @@ ul {
   50% { opacity: .8;}
 }
 
-
+/* ACÁ TERMINA LA VELA */
 
 body {
     background-color: #19151d;
@@ -219,9 +220,23 @@ body {
     margin-top: 2%;
 }
 
-h3 {
+.Image-title {
     font-family: 'Roboto', sans-serif;
     color: #ff4500;
     margin-top: 2%;
     margin-left: 5%;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+}
+
+.image {
+    width: 33.33%;
+    margin-right: 10px;
+}
+
+.image:last-child {
+    margin-right: 0;
 }
